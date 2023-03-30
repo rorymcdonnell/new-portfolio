@@ -32,7 +32,7 @@ const Experience = ({ icon, title, description, setSelectedPage }: Props) => {
         onClick={() => setSelectedPage(SelectedPage.ContactUs)}
         href={`#${SelectedPage.ContactUs}`}
       >
-        <p>More info.</p>
+        <p>More info..</p>
       </AnchorLink>
     </motion.div>
   );
