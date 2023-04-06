@@ -130,7 +130,7 @@ const Experiences = ({ setSelectedPage }: Props) => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Architecto inventore beatae fugiat. Voluptatem necessitatibus
                 debitis itaque eum qui. Nemo nesciunt repellat culpa repellendus
-                ipsa ut quo similique aliquid eaque voluptatibus.
+                ipsa ut quo similique aliquid eaque voluptatibusr.
               </p>
               <p className="mb-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
