@@ -79,7 +79,7 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         {/* IMAGE */}
-        <div className="mx-auto flex w-[400px] justify-center pt-20 md:z-10 md:basis-3/5 md:justify-items-end">
+        <div className="sm- mx-auto flex w-[400px] justify-center pt-20 md:z-10 md:basis-3/5 md:justify-items-end">
           <img alt="home-pageGraphic" src={homeIcon} />
         </div>
       </motion.div>

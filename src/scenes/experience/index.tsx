@@ -8,23 +8,26 @@ import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Experience from "./Experience";
 import ActionButton from "@/shared/ActionButton";
-import BenfitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import WorkingOnGraphic from "@/assets/workingOn.png";
 
 const jobExperience: Array<JobExperienceType> = [
   {
     icon: <CodeBracketIcon className="h-6 w-6" />,
     title: "HD Labs Ltd",
-    description: "lkgsnsj sjnksjng ksjngkjng ksjngksjng ksjnfgkng",
+    description:
+      "Develop products with React, improving current applications and building new ones from scratch Lead the development of web applications with contributions to overall architecture. Work with the UX/UI team to implement modern, accessible and responsive user experiences. Produced designs and wireframes for products",
   },
   {
     icon: <CommandLineIcon className="h-6 w-6" />,
-    title: "Malinko",
-    description: "lkgsnsj sjnksjng ksjngkjng ksjngksjng ksjnfgkng",
+    title: "Freelance website creator",
+    description:
+      "Increased traffic by working on marketing campaigns for businesses in multiple industries. Improved SEO and first page results. I created and executed content plans to improve the Google ranking for high volume keywords. Researched key information to generate content. Assisted in improving the technical SEO on websites",
   },
   {
     icon: <ComputerDesktopIcon className="h-6 w-6" />,
-    title: "Freelance Website Creator",
-    description: "lkgsnsj sjnksjng ksjngkjng ksjngksjng ksjnfgkng",
+    title: "Freelance Marketing Assistant",
+    description:
+      "Create, update and manage modern, responsive and SEO-friendly websites using WordPress. Build lead generating landing pages to help businesses increase traffic and conversions. Managed all aspect of design and development by liaising directly with businesses, developing great working relationships. Set up SSL/hosting",
   },
 ];
 
@@ -59,15 +62,14 @@ const Experiences = ({ setSelectedPage }: Props) => {
         >
           <HText>Experience</HText>
           <p className="my-5 text-sm">
-            I have over a years experience in building React + TypeScript
-            applications within the health techn industry. Applications I have
-            helped developed are used by the NHS
+            I have over 2 years experience in building React + TypeScript
+            applications primarily working in the health technology industry.
           </p>
         </motion.div>
         {/* experiences */}
         <motion.div
           className="mt-5 items-center justify-between gap-8 md:flex"
-          initial="hidden"
+          // initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           variants={container}
@@ -89,13 +91,13 @@ const Experiences = ({ setSelectedPage }: Props) => {
           <img
             className="mx-auto"
             alt="benefits-section-graphic"
-            src={BenfitsPageGraphic}
+            src={WorkingOnGraphic}
           />
           {/* description */}
           <div>
             {/* title */}
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+              <div>
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -127,21 +129,23 @@ const Experiences = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto inventore beatae fugiat. Voluptatem necessitatibus
-                debitis itaque eum qui. Nemo nesciunt repellat culpa repellendus
-                ipsa ut quo similique aliquid eaque voluptatibusr.
+                As a developer, my workflow pattern starts with understanding
+                requirements and designing in Figma. I then build the app using
+                React + TypeScript, while researching and evaluating libraries
+                for desired functionality. I follow coding practices, conduct
+                code reviews, and thoroughly test the app.
               </p>
               <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
-                voluptas reiciendis cum porro totam. Consequatur quisquam
-                commodi quas totam temporibus quasi voluptas recusandae vel
-                minus, numquam, molestias, aliquid eum qui.
+                Choosing the best styling method depends on the size and scale
+                of the application. I like to use tailwindcss for smaller scale
+                apps. I find using CSS/SCSS modules best with larger
+                applications. In a work environment deployment is done to a
+                staging environment for further testing before production.
               </p>
             </motion.div>
             {/* button */}
             <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+              <div>
                 <ActionButton setSelectedPage={setSelectedPage}>
                   Contact Me
                 </ActionButton>
