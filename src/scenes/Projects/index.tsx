@@ -46,11 +46,7 @@ const Projects = ({ setSelectedPage }: Props) => {
         >
           <div className="md:w-3/5">
             <HText>My Projects</HText>
-            <p className="py-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-              fugit soluta odit accusantium quod, repellendus dolorem recusandae
-              obcaecati corrupti placeat.
-            </p>
+            <p className="py-5">Take a look at my projects :)</p>
           </div>
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
