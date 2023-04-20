@@ -25,7 +25,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   };
 
   return (
-    <section id="contactus" className="mx-auto w-5/6 pt-24 pb-32">
+    <section id="contactus" className="mx-auto w-5/6 pt-2 pb-32">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
@@ -133,7 +133,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <img
-              className="w-full"
+              className="w-[80%] rounded-md"
               alt="contact-us-page-graphic"
               src={ContactUsPageGraphic}
             />

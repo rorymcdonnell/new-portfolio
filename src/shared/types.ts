@@ -12,7 +12,8 @@ export interface JobExperienceType {
 }
 
 export interface ProjectType {
-  name: string;
-  description?: string;
-  image: string;
+  title: string;
+  technologies: string[];
+  gitHubUrl: string;
+  liveUrl: string;
 }
