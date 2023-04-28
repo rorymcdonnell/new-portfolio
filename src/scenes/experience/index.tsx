@@ -62,7 +62,7 @@ const Experiences = ({ setSelectedPage }: Props) => {
         >
           <HText>Experience</HText>
           <p className="my-5 text-sm">
-            I have over 2 years experience in building React + TypeScript
+            I have over 2 years experience in building React + TypeScript web
             applications primarily working in the health technology industry.
           </p>
         </motion.div>
