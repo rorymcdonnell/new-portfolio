@@ -17,8 +17,6 @@ type Props = {
 };
 
 const Project = ({ title, technologies, liveUrl, gitHubUrl }: Props) => {
-  console.log("tech", technologies);
-
   return (
     //@ts-ignore
     <motion.div
@@ -27,14 +25,16 @@ const Project = ({ title, technologies, liveUrl, gitHubUrl }: Props) => {
     >
       <div className="mb-4 flex justify-center"></div>
       <div className=" mb-5 flex justify-center gap-5">
-        <div className="rounded-full border-2 border-secondary-500 bg-primary-100 p-4">
-          <a target="_blank" href={gitHubUrl}>
+        <a target="_blank" href={gitHubUrl}>
+          <div className="rounded-full border-2 border-secondary-500 bg-primary-100 p-4">
             <img className="h-6 w-6" src={gitCat}></img>
-          </a>
-        </div>
-        <div className="rounded-full border-2 border-secondary-500 bg-primary-100 p-4">
-          <ArrowTopRightOnSquareIcon className="h-6 w-6" />
-        </div>
+          </div>
+        </a>
+        <a target="_blank" href={liveUrl}>
+          <div className="rounded-full border-2 border-secondary-500 bg-primary-100 p-4">
+            <ArrowTopRightOnSquareIcon className="h-6 w-6" />
+          </div>
+        </a>
       </div>
       <h4 className="font-bold">{title}</h4>
       {technologies.map((tech) => {
