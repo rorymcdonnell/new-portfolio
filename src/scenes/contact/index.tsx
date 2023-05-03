@@ -8,7 +8,7 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const ContactUs = ({ setSelectedPage }: Props) => {
+const Contact = ({ setSelectedPage }: Props) => {
   const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white mb-5`;
 
   const {
@@ -142,4 +142,4 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   );
 };
 
-export default ContactUs;
+export default Contact;

@@ -2,12 +2,6 @@ import { SelectedPage, ProjectType } from "@/shared/types";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Project from "./Project";
-import ActionButton from "@/shared/ActionButton";
-import {
-  CodeBracketIcon,
-  CommandLineIcon,
-  ComputerDesktopIcon,
-} from "@heroicons/react/24/solid";
 
 const container = {
   hidden: {},

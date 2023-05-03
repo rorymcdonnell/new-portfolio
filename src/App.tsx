@@ -4,7 +4,7 @@ import { SelectedPage } from "@/shared/types";
 import Home from "@/scenes/home";
 import Experience from "@/scenes/experience";
 import Projects from "@/scenes/Projects";
-import ContactUs from "@/scenes/contactUs";
+import Contact from "@/scenes/contact";
 import Footer from "@/scenes/footer";
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <Experience setSelectedPage={setSelectedPage} />
       <Projects setSelectedPage={setSelectedPage} />
-      <ContactUs setSelectedPage={setSelectedPage} />
+      <Contact setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
   );
