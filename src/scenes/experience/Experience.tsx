@@ -29,11 +29,9 @@ const Experience = ({ icon, title, description, setSelectedPage }: Props) => {
       <p className="my-3">{description}</p>
       <AnchorLink
         className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-        onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-        href={`#${SelectedPage.ContactUs}`}
-      >
-        <p>More info..</p>
-      </AnchorLink>
+        onClick={() => setSelectedPage(SelectedPage.Contact)}
+        href={`#${SelectedPage.Contact}`}
+      ></AnchorLink>
     </motion.div>
   );
 };

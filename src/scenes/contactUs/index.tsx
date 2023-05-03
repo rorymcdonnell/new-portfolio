@@ -25,10 +25,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   };
 
   return (
-    <section id="contactus" className="mx-auto w-5/6 pt-2 pb-32">
-      <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
-      >
+    <section id="contact" className="mx-auto w-5/6 pt-2 pb-32">
+      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Contact)}>
         {/* header */}
         <motion.div
           className="md:w-3/5"
@@ -117,7 +115,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 text-white transition duration-500 hover:text-white"
                 type="submit"
               >
-                SUBMIT..
+                SUBMIT
               </button>
             </form>
           </motion.div>
