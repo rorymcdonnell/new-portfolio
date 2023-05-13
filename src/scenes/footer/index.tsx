@@ -6,9 +6,7 @@ const Footer = () => {
       <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} />
-          <p className="my-5">
-            Front-end developer working in the health technology industry.
-          </p>
+          <p className="my-5">Front-end developer. React + TypeScript.</p>
           <p>© Rory McDonnell</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0"></div>
